@@ -1,3 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7eb3, #8e44ad);
+}
 #Santa{
     background-color: red;
 }
@@ -7,3 +16,16 @@
 #Rod{
     background-color: rgb(78, 78, 235);
 }
+#stylish-button{
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+#stylish-button: hover
