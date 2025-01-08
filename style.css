@@ -8,13 +8,13 @@ body{
     background: linear-gradient(135deg, #ff7eb3, #8e44ad);
 }
 #Santa{
-    background-color: red;
+    background: linear-gradient(135deg, #7eff9a, #abad44);
 }
 #Hra{
-    background-color: aquamarine;
+    background: linear-gradient(135deg, #2618f3, #e66060);
 }
 #Rod{
-    background-color: rgb(78, 78, 235);
+    background: linear-gradient(135deg,  #abad44, #2618f3);
 }
 #stylish-button{
     background: linear-gradient(90deg, #ff6a00, #ee0979);
@@ -28,4 +28,22 @@ body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
-#stylish-button: hover
+#stylish-button:hover{
+    transform: scale(1,1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0, 0.3);
+}
+#stylish-button:active{
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+a{
+    text-decoration: none;
+    color: #101111;
+    font-weight: bold;
+}
+a:hover{
+    color: #0056b3;
+}
+p{
+    font-weight: bold;
+}
